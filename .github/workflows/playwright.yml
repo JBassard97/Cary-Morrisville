@@ -2,14 +2,13 @@ name: Kill Checklists
 
 on:
   schedule:
-    # every day at 8PM/9PM staggered
-    - cron: "1 0 * * 1"  
-    - cron: "21 0 * * 2"
-    - cron: "31 0 * * 3"
-    - cron: "41 0 * * 4"
-    - cron: "31 0 * * 5"
-    - cron: "21 0 * * 6"  
-    - cron: "1 0 * * 0"
+    - cron: "0 0 * * 1"  
+    - cron: "0 0 * * 2"
+    - cron: "0 0 * * 3"
+    - cron: "0 0 * * 4"
+    - cron: "0 0 * * 5"
+    - cron: "0 0 * * 6"
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 jobs:
